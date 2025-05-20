@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/pngtree-sheet-of-school-notebook-for-exercises-picture-image_1863131.jpg);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #2d2d44;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.project {
+  background-color: #3c3c5c;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.task-list {
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5a5a7a;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.task.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #ccc;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #12121c;
+}
